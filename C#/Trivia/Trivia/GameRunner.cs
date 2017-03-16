@@ -9,18 +9,22 @@ namespace Trivia
 {
     public class GameRunner
     {
-
+        
         private static bool notAWinner;
 
         public static void Main(String[] args)
         {
-            Game aGame = new Game();
+            for (int i = 0; i < 10; i++)
+            {
 
+            
+            Game aGame = new Game();
+            
             aGame.add("Chet");
             aGame.add("Pat");
             aGame.add("Sue");
 
-            Random rand = new Random();
+            Random rand = new Random(i);
 
             do
             {
@@ -37,9 +41,9 @@ namespace Trivia
                 }
 
 
-
+           
             } while (notAWinner);
-
+            }
         }
 
 
