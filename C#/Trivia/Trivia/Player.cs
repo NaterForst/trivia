@@ -4,7 +4,7 @@ namespace Trivia
 {
     internal class Player
     {
-        public string Name { get; }
+        public string Name { get; set; }
 
         public int Place { get; private set; }
 
