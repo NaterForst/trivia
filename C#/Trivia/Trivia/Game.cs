@@ -94,25 +94,33 @@ namespace Trivia
 
         private void AskQuestion()
         {
-            if (CurrentCategory() == "Pop")
+            switch (CurrentCategory())
             {
-                Console.WriteLine(_popQuestions.First());
-                _popQuestions.RemoveFirst();
+                case "Pop":
+                    Console.WriteLine(_popQuestions.First());
+                    _popQuestions.RemoveFirst();
+                    break;
             }
-            if (CurrentCategory() == "Science")
+            switch (CurrentCategory())
             {
-                Console.WriteLine(_scienceQuestions.First());
-                _scienceQuestions.RemoveFirst();
+                case "Science":
+                    Console.WriteLine(_scienceQuestions.First());
+                    _scienceQuestions.RemoveFirst();
+                    break;
             }
-            if (CurrentCategory() == "Sports")
+            switch (CurrentCategory())
             {
-                Console.WriteLine(_sportsQuestions.First());
-                _sportsQuestions.RemoveFirst();
+                case "Sports":
+                    Console.WriteLine(_sportsQuestions.First());
+                    _sportsQuestions.RemoveFirst();
+                    break;
             }
-            if (CurrentCategory() == "Rock")
+            switch (CurrentCategory())
             {
-                Console.WriteLine(_rockQuestions.First());
-                _rockQuestions.RemoveFirst();
+                case "Rock":
+                    Console.WriteLine(_rockQuestions.First());
+                    _rockQuestions.RemoveFirst();
+                    break;
             }
         }
 
