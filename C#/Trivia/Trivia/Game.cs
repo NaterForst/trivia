@@ -14,8 +14,8 @@ namespace Trivia
         readonly LinkedList<string> _sportsQuestions = new LinkedList<string>();
         readonly LinkedList<string> _rockQuestions = new LinkedList<string>();
 
-        int _currentPlayer = 0;
-        bool _isGettingOutOfPenaltyBox;
+        private int _currentPlayer = 0;
+        private bool _isGettingOutOfPenaltyBox;
 
         public Game()
         {
@@ -133,14 +133,12 @@ namespace Trivia
                     _players[_currentPlayer].WinAGoldCoin();
 
                     winner = DidPlayerWin();
-                    _currentPlayer++;
-                    if (_currentPlayer == _players.Count) _currentPlayer = 0;
+                    ChangePlayer();
 
                     return winner;
                 }
 
-                _currentPlayer++;
-                if (_currentPlayer == _players.Count) _currentPlayer = 0;
+                ChangePlayer();
                 return true;
             }
 
@@ -148,10 +146,15 @@ namespace Trivia
             _players[_currentPlayer].WinAGoldCoin();
 
             winner = DidPlayerWin();
-            _currentPlayer++;
-            if (_currentPlayer == _players.Count) _currentPlayer = 0;
+            ChangePlayer();
 
             return winner;
+        }
+
+        private void ChangePlayer()
+        {
+            _currentPlayer++;
+            if (_currentPlayer == _players.Count) _currentPlayer = 0;
         }
 
         public bool WrongAnswer()
@@ -160,8 +163,7 @@ namespace Trivia
             Console.WriteLine(_players[_currentPlayer].Name + " was sent to the penalty box");
             _players[_currentPlayer].GoToPenaltyBox();
 
-            _currentPlayer++;
-            if (_currentPlayer == _players.Count) _currentPlayer = 0;
+            ChangePlayer();
             return true;
         }
 
