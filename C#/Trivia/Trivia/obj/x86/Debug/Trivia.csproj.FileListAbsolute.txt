@@ -1,0 +1,15 @@
+F:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\obj\x86\Debug\Trivia.exe
+F:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\obj\x86\Debug\Trivia.pdb
+F:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\bin\Debug\Trivia.exe
+F:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\bin\Debug\Trivia.pdb
+F:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\obj\x86\Debug\Trivia.csprojResolveAssemblyReference.cache
+H:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\bin\Debug\Trivia.exe.config
+H:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\bin\Debug\Trivia.exe
+H:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\bin\Debug\Trivia.pdb
+H:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\obj\x86\Debug\Trivia.exe
+H:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\obj\x86\Debug\Trivia.pdb
+H:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\obj\x86\Debug\Trivia.csprojResolveAssemblyReference.cache
+F:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\bin\Debug\Trivia.exe.config
+G:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\bin\Debug\Trivia.exe.config
+G:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\obj\x86\Debug\Trivia.exe
+G:\DEVOPS\dotNET\trivia\C#\Trivia\Trivia\obj\x86\Debug\Trivia.pdb
