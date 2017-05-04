@@ -15,7 +15,7 @@ namespace Trivia
         public static readonly LinkedList<Questions> SportsStack = new LinkedList<Questions>();
         public static readonly LinkedList<Questions> RockStack = new LinkedList<Questions>();
 
-        public void AddStacks(string[] categories)
+        public bool AddStacks(string[] categories)
         {
             foreach (String category in categories)
             {
